@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Mar  1 23:50:38 2018
 
-@author: Ayush Kumar Pathak
+
+@author: Saptorshi GHosh
 """
 from matplotlib import pyplot as plt
 import numpy as np
@@ -24,7 +24,7 @@ try:
         gendat.append(rowdat)
     
     for i in range(len(gendat)):
-        gendat[i] = gendat[i]
+   
         for j in range(len(gendat[i])):
             gendat[i][j] = float(gendat[i][j])
         
